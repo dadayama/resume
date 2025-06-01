@@ -69,7 +69,7 @@
 #### デザイン時
 - コラムカテゴリ部分のコントラスト比不足箇所のカラー調整をデザイナーに依頼 [1.4.3 コントラスト (最低限)](https://waic.jp/translations/WCAG22/#contrast-minimum)
 - 自動再生コンテンツについて、5秒以上連続して動くものには一時停止・再生ボタンの設置を提案 [2.2.2 一時停止、停止、非表示](https://waic.jp/translations/WCAG22/#pause-stop-hide)
-- SNSアイコンのみのリンクに対し、可視テキストの追加を指示 [見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels)
+- SNSアイコンのみのリンクに対し、可視テキストの追加を指示 [2.4.6 見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels)
 - 形だけで表されている要素に対し、可視テキストの追加を提案 [1.3.3 感覚的な特徴](https://waic.jp/translations/WCAG22/#sensory-characteristics)
 - スクリーンリーダーの読み上げ順序を考慮したレスポンシブデザインの調整を提案 [1.3.2 意味のあるシーケンス](https://waic.jp/translations/WCAG22/#meaningful-sequence)
 
