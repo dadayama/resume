@@ -49,14 +49,37 @@
 - [株式会社ストレージ王 サービスサイト](https://www.storageoh.jp/)
 - [株式会社ジェイシーサプライ 施工業者のマッチングアプリ](https://skettable.com/)
 
-#### 主な実績
+## 主な実績
 
+### 実装
 - React Hooks を活用した状態管理・コンポーネント設計
 - React Hook Form + Zod / Yup によるフォームバリデーション実装
 - REST API / microCMS を利用した記事管理・動的コンテンツ実装
 - 検索機能の構築、Google Maps API による地図表示機能の開発
 - アクセシビリティを考慮したセマンティックなマークアップ、WAI-ARIA の使用
-- WCAG 2.2 に基づくアクセシビリティチェックの実施
+
+### アクセシビリティチェック・改善（一例）
+
+#### 設計時
+- 見出し要素に関連する情報の配置ルールを確認し、見出しの前に関連情報を配置しないよう提案  [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships)
+- ユーザーの操作が必要な UI コンポーネント（ポップアップ、モーダル、アコーディオンなど）を極力減らすよう提案
+- 各ナビゲーションの構成の不一致を指摘し、情報設計の改善を提案 [一貫したナビゲーション](https://waic.jp/translations/WCAG22/#consistent-navigation)
+- リンクテキストと遷移先ページタイトルの不一致を指摘し、改善を提案 [2.4.4 リンクの目的 (コンテキスト内)](https://waic.jp/translations/WCAG22/#link-purpose-in-context) [リンクの目的 (リンクのみ)](https://waic.jp/translations/WCAG22/#link-purpose-link-only)
+
+#### デザイン時
+- コラムカテゴリ部分のコントラスト比不足箇所のカラー調整をデザイナーに依頼 [1.4.3 コントラスト (最低限)](https://waic.jp/translations/WCAG22/#contrast-minimum)
+- 自動再生コンテンツについて、5秒以上連続して動くものには一時停止・再生ボタンの設置を提案 [2.2.2 一時停止、停止、非表示](https://waic.jp/translations/WCAG22/#pause-stop-hide)
+- SNSアイコンのみのリンクに対し、可視テキストの追加を指示 [見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels)
+- 形だけで表されている要素に対し、可視テキストの追加を提案 [1.3.3 感覚的な特徴](https://waic.jp/translations/WCAG22/#sensory-characteristics)
+- スクリーンリーダーの読み上げ順序を考慮したレスポンシブデザインの調整を提案 [1.3.2 意味のあるシーケンス](https://waic.jp/translations/WCAG22/#meaningful-sequence)
+
+#### 実装時
+- `button` 要素のアクセシビリティネーム（可視テキストと `aria-label`）の不一致を修正依頼 [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships)
+- 検索フォームの `input` と `label` の正しい紐づけを実施 [2.4.6 見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels)
+- `h1`〜`h6`要素の使用箇所・レベルの適切な調整を実施  [2.4.6 見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels) [2.4.10 セクション見出し](https://waic.jp/translations/WCAG22/#section-headings)
+- サイドメニューのフォーカス順序の調整と、モーダル時のフォーカストラップ実装を依頼 [2.1.2 キーボードトラップなし](https://waic.jp/translations/WCAG22/#no-keyboard-trap) [2.4.3 フォーカス順序](https://waic.jp/translations/WCAG22/#focus-order)
+
+### その他
 - 社内コーディングガイドライン、アクセシビリティガイドラインの策定と運用
 
 ### 株式会社東京商工リサーチ (2019 年 10 月 〜 2023 年 7 月)
