@@ -20,11 +20,6 @@
 
   - HTML の文書構造を意識し、ARIA 属性を使用する際は WAI-ARIA 1.3 を参考に実装しています。
 
-## 執筆実績
-
-- [自社サイトのウェブアクセシビリティを向上させた 8 つの具体例を解説](https://noveltyinc.jp/media/a11y-fix-corporate-site)
-- [アクセシビリティツリーとは？ウェブの使いやすさを支える技術](https://noveltyinc.jp/media/accessibility-tree)
-
 ## 職務経歴
 
 ### 株式会社ノベルティ (2024 年 1 月 〜 現在)
@@ -77,6 +72,11 @@
 
 ### その他
 - 社内コーディングガイドライン、アクセシビリティガイドラインの策定と運用
+
+## 執筆実績
+
+- [自社サイトのウェブアクセシビリティを向上させた 8 つの具体例を解説](https://noveltyinc.jp/media/a11y-fix-corporate-site)
+- [アクセシビリティツリーとは？ウェブの使いやすさを支える技術](https://noveltyinc.jp/media/accessibility-tree)
 
 ### 株式会社東京商工リサーチ (2019 年 10 月 〜 2023 年 7 月)
 
