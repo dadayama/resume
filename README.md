@@ -75,6 +75,7 @@
 
 #### 実装時
 - img要素のalt属性に設定されているテキストと画像の内容の不一致を指摘 [1.1.1 非テキストコンテンツ](https://waic.jp/translations/WCAG22/#non-text-content)
+- 見出しの前に見出しに関連する要素がある場合は、hgroup要素を使用しグルーピングするよう提案  [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships)
 - `button` 要素のアクセシビリティネーム（可視テキストと `aria-label`）の不一致を修正依頼 [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships) [4.1.2 名前 (name)・役割 (role)・値 (value)](https://waic.jp/translations/WCAG22/#name-role-value)
 - 検索フォームの `input` と `label` の正しい紐づけを実施 [2.4.6 見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels)
 - `h1`〜`h6`要素の使用箇所・レベルの適切な調整を実施  [2.4.6 見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels) [2.4.10 セクション見出し](https://waic.jp/translations/WCAG22/#section-headings) [ 2.4.1 ブロックスキップ](https://waic.jp/translations/WCAG22/#bypass-blocks)
