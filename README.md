@@ -65,6 +65,7 @@
 - ユーザーの操作が必要な UI コンポーネント（ポップアップ、モーダル、アコーディオンなど）を極力減らすよう提案
 - 各ナビゲーションの構成の不一致を指摘し、情報設計の改善を提案 [3.2.3 一貫したナビゲーション](https://waic.jp/translations/WCAG22/#consistent-navigation)
 - リンクテキストと遷移先ページタイトルの不一致を指摘し、改善を提案 [2.4.4 リンクの目的 (コンテキスト内)](https://waic.jp/translations/WCAG22/#link-purpose-in-context) [リンクの目的 (リンクのみ)](https://waic.jp/translations/WCAG22/#link-purpose-link-only)
+- フォームパーツに適切な説明文を設置するよう提案、説明文の位置をフォームパーツの上に設置するよう提案 [3.3.2 ラベル又は説明](https://waic.jp/translations/WCAG22/#labels-or-instructions)
 
 #### デザイン時
 - コラムカテゴリ部分のコントラスト比不足箇所のカラー調整をデザイナーに依頼 [1.4.3 コントラスト (最低限)](https://waic.jp/translations/WCAG22/#contrast-minimum)
@@ -77,9 +78,10 @@
 - img要素のalt属性に設定されているテキストと画像の内容の不一致を指摘 [1.1.1 非テキストコンテンツ](https://waic.jp/translations/WCAG22/#non-text-content)
 - 見出しの前に見出しに関連する要素がある場合は、hgroup要素を使用しグルーピングするよう提案  [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships)
 - `button` 要素のアクセシビリティネーム（可視テキストと `aria-label`）の不一致を修正依頼 [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships) [4.1.2 名前 (name)・役割 (role)・値 (value)](https://waic.jp/translations/WCAG22/#name-role-value)
-- 検索フォームの `input` と `label` の正しい紐づけを実施 [2.4.6 見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels)
+- 検索フォームの `input` と `label` の正しい紐づけを実施  [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships) [2.4.6 見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels)
 - `h1`〜`h6`要素の使用箇所・レベルの適切な調整を実施  [2.4.6 見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels) [2.4.10 セクション見出し](https://waic.jp/translations/WCAG22/#section-headings) [ 2.4.1 ブロックスキップ](https://waic.jp/translations/WCAG22/#bypass-blocks)
 - サイドメニューのフォーカス順序の調整と、モーダル時のフォーカストラップ実装を依頼 [2.1.2 キーボードトラップなし](https://waic.jp/translations/WCAG22/#no-keyboard-trap) [2.4.3 フォーカス順序](https://waic.jp/translations/WCAG22/#focus-order)
+- 英語タイトルのテキストに対して `lang="en"`を設定するよう依頼
 
 ### その他
 - 社内コーディングガイドライン、アクセシビリティガイドラインの策定と運用
