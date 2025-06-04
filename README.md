@@ -47,7 +47,7 @@
 - 形だけで表されている要素に対し、可視テキストを追加 [1.3.3 感覚的な特徴](https://waic.jp/translations/WCAG22/#sensory-characteristics)
 - コントラスト比が不足している箇所のカラー調整 [1.4.3 コントラスト (最低限)](https://waic.jp/translations/WCAG22/#contrast-minimum)
 - 自動再生コンテンツについて、5秒以上連続して動くものには一時停止・再生ボタンを設置 [2.2.2 一時停止、停止、非表示](https://waic.jp/translations/WCAG22/#pause-stop-hide)
-- 
+
 ###### 実装時
 - img要素のalt属性に設定されているテキストと画像の内容の不一致 [1.1.1 非テキストコンテンツ](https://waic.jp/translations/WCAG22/#non-text-content)
 - 見出しの前に見出しに関連する要素がある場合は、hgroup要素を使用しグルーピング  [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships)
