@@ -38,9 +38,8 @@
 ###### 設計時
 - 見出し要素に関連する情報の配置ルールを確認  [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships)
 - リンクテキストと遷移先ページタイトルの不一致 [2.4.4 リンクの目的 (コンテキスト内)](https://waic.jp/translations/WCAG22/#link-purpose-in-context) [2.4.9 リンクの目的 (リンクのみ)](https://waic.jp/translations/WCAG22/#link-purpose-link-only)
-- 各ナビゲーションの情報構造のの不一致 [3.2.3 一貫したナビゲーション](https://waic.jp/translations/WCAG22/#consistent-navigation)
+- 各ナビゲーションの情報構造の不一致 [3.2.3 一貫したナビゲーション](https://waic.jp/translations/WCAG22/#consistent-navigation)
 - フォームパーツに適切な説明文を設置、説明文の位置をフォームパーツの上に設置 [3.3.2 ラベル又は説明](https://waic.jp/translations/WCAG22/#labels-or-instructions)
-- ユーザーの操作が必要な UIコンポーネント（ポップアップ、モーダル、アコーディオンなど）を極力減らすよう提案
 
 ###### デザイン時
 - DOMの順序を考慮したレスポンシブデザイン [1.3.2 意味のあるシーケンス](https://waic.jp/translations/WCAG22/#meaningful-sequence)
@@ -50,7 +49,7 @@
 
 ###### 実装時
 - img要素のalt属性に設定されているテキストと画像の内容の不一致 [1.1.1 非テキストコンテンツ](https://waic.jp/translations/WCAG22/#non-text-content)
-- 見出しの前に見出しに関連する要素がある場合は、hgroup要素を使用しグルーピング  [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships)
+- 見出しに関連する要素がある場合は、適切にグループ化し、見出し構造を保つよう実装  [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships)
 - `button` 要素のアクセシビリティネーム（可視テキストと `aria-label`）の不一致 [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships) [4.1.2 名前 (name)・役割 (role)・値 (value)](https://waic.jp/translations/WCAG22/#name-role-value)
 - 検索フォームの `input` と `label` の正しい紐づけ  [1.3.1 情報及び関係性](https://waic.jp/translations/WCAG22/#info-and-relationships) [2.4.6 見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels)
 - `h1`〜`h6`要素の使用箇所・レベルの適切な調整  [2.4.6 見出し及びラベル](https://waic.jp/translations/WCAG22/#headings-and-labels) [2.4.10 セクション見出し](https://waic.jp/translations/WCAG22/#section-headings) [2.4.1 ブロックスキップ](https://waic.jp/translations/WCAG22/#bypass-blocks)
