@@ -1,7 +1,6 @@
 ## 基本情報
 
 - 名前：山田 かおり
-- [GitHub](https://github.com/dadayama)
 
 ## スキルセット
 
